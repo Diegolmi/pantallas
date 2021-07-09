@@ -1,0 +1,125 @@
+.inversion {
+    width: 100% !important;
+    padding: 0 1rem;
+    min-height: 100vh !important;
+    background: url(https://cdn.pixabay.com/photo/2017/10/31/09/54/entrepreneur-2904772__340.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.inversion:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.inversion > div {
+    position: relative;
+}
+.tu-inversion {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin: auto;
+    padding: 0 0;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+.div-porcentaje {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 35px;
+    width: 90%;
+    height: 100px;
+    background-color: #6c11cd;
+}
+.div-porcentaje p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.barra-blanca {
+    width: 70%;
+    height: 35px;
+    background-color: white;
+}
+.barra-rosa {
+    height: 35px;
+    background-color: #ec0b84;
+}
+.barra-rosa span {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.billetera-tipo {
+    margin: auto;
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    margin-top: 30px;
+    border-radius: 55px;
+    width: 90%;
+    background-color: #6c11cd;
+}
+.billetera-tipo p {
+    margin-bottom: 0px !important;
+}
+.billetera-tipo h4 {
+    font-weight: 700;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+.btn-inversion {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+}
+.btn-inversion button {
+    min-width: 45%;
+    background-color: #ec0b84;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+    font-weight: 650;
+    border: none;
+}
+.btn-inversion button:hover {
+    background-color: #6c11cd;
+    transition: 0.4s;
+}
+.dinero-acumulado {
+    background-color: rgb(108, 17, 205, 0.4);
+    padding: 2rem 0;
+    color: white;
+    border-radius: 50px;
+    width: 100%;
+}
+.dinero-acumulado h5 {
+    text-shadow: 3px 3px 3px black !important;
+}
+.dinero-acumulado h2 {
+    text-shadow: 3px 3px 3px black !important;
+}
+
+@media (max-width: 430px) {
+.inversion {
+
+}
+}
