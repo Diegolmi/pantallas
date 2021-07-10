@@ -34,13 +34,13 @@ export default function SideBar() {
               </Nav.Link>
             </li>
             <li>
-              <Nav.Link to="/" as={NavLink}>
+              <Nav.Link to="/Objetivos" as={NavLink}>
                 <i className="d-inline d-md-none bi bi-bullseye"></i>
                 <span className="d-none d-md-inline"> Objetivos</span>
               </Nav.Link>
             </li>
             <li>
-              <Nav.Link to="/" as={NavLink}>
+              <Nav.Link to="/Soporte" as={NavLink}>
                 <i className="d-inline d-md-none bi bi-chat-dots"></i>
                 <span className="d-none d-md-inline"> Soporte</span>
               </Nav.Link>

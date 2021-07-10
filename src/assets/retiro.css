@@ -83,4 +83,18 @@
     .btn-retiro button {
         margin-bottom: 20px;
     }
+    .billetera-retiro h4 {
+        font-size: 1.2rem;
+    }
+    .billetera-retiro {
+        padding: 0 1rem;
+    }
+    .billetera-retiro p {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 325px) {
+    .billetera-retiro p {
+        font-size: 0.8rem;
+    }
 }

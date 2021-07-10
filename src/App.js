@@ -1,9 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavReactB from "./components/NavReactB";
 import Inversion from './pages/Inversion'
 import Retiro from './pages/Retiro'
+import Soporte from "./pages/Soporte";
+import NavReactB from "./components/NavReactB";
 import SideBar from "./components/SideBar";
 import { Route, Switch } from "react-router-dom";
 
@@ -23,8 +24,8 @@ function App() {
             <Route path="/Retiro" exact>
               <Retiro />
             </Route>
-            <Route path="/Register" exact>
-              {/* <Register /> */}
+            <Route path="/Soporte" exact>
+              <Soporte />
             </Route>
           </Switch>
         </div>

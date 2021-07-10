@@ -1,0 +1,41 @@
+.titulo-soporte {
+    color: white;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 7px 0 4px;
+    background-color: #ec0b84;
+    border-radius: 20px;
+}
+.titulo-soporte h2 {
+    font-weight: 700 !important;
+}
+.info-soporte {
+    background-color: rgb(108, 17, 205, 0.4);
+    border-radius: 60px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 2rem 0;
+    color: white;
+}
+.info-soporte ul {
+    text-align: start;
+    list-style: none;
+    margin: 3rem 0;
+}
+.info-soporte li {
+    font-size: 1.1rem;
+    font-weight: 750;
+}
+.info-soporte a {
+    display: inline;
+    padding: 0 0;
+    color: #6c11cd;
+}
+.info-soporte h2 {
+    font-weight: 700;
+}
+.info-soporte p {
+    padding: 0 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}

@@ -31,7 +31,7 @@ export default function NavReactB() {
               Idioma
             </Nav.Link>
             { user && 
-              <Button className="btn-cerrar-sesión mr-2">Iniciar Sesión</Button>
+              <Button className="btn-cerrar-sesión mr-md-2 mb-2">Iniciar Sesión</Button>
             }
             { user && 
               <Button className="btn-cerrar-sesión">Registrarte</Button>
