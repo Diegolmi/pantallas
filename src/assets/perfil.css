@@ -13,12 +13,11 @@
     margin-top: 10px;
     margin-bottom: 40px;
 }
-
+.perfil .input-group span {
+    color: #ec0b84;
+}
 .perfil .input-group {
     margin-bottom: 20px !important;
-}
-.perfil span {
-    width: 100px;
 }
 .btn-guardar {
     margin-left: 10px;
