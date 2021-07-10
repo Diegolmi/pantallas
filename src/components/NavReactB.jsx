@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "../assets/nav.css";
 import { NavLink } from "react-router-dom";
 import { Button, Nav, Navbar } from "react-bootstrap";
 
 export default function NavReactB() {
+  const [user, setUser] = useState(true)
+
   return (
     <>
       <Navbar
@@ -28,8 +30,15 @@ export default function NavReactB() {
             <Nav.Link to="/Idioma" as={NavLink}>
               Idioma
             </Nav.Link>
-            <Button className="d-none btn-cerrar-sesión">Iniciar Sesión</Button>
-            <Button className="btn-cerrar-sesión">Cerrar Sesión</Button>
+            { user && 
+              <Button className="btn-cerrar-sesión mr-2">Iniciar Sesión</Button>
+            }
+            { user && 
+              <Button className="btn-cerrar-sesión">Registrarte</Button>
+            }
+            { !user && 
+              <Button className="btn-cerrar-sesión">Cerrar Sesión</Button>
+            }
           </Nav>
         </Navbar.Collapse>
       </Navbar>

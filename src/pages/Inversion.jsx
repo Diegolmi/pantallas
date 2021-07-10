@@ -6,6 +6,7 @@ export default function Inversion() {
   const [inversion, setInversion] = useState(150);
   const [widthRosa, setWidthRosa] = useState(40)
   const [tipo, setTipo] = useState('usdt')
+  const [acumulado, setAcumulado] = useState(23000)
 
   return (
     <>
@@ -32,7 +33,7 @@ export default function Inversion() {
             <div className="col-12 col-lg-4 px-5 py-5">
                 <div className="dinero-acumulado px-3">
                     <h5>Dinero acumulado de tu Equipo</h5>
-                    <h2 className="my-4">USD 25589</h2>
+                    <h2 className="my-4">USD {acumulado}</h2>
                     <h2>Rango 1</h2>
                 </div>
             </div>

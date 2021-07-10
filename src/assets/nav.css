@@ -11,6 +11,10 @@
     font-size: 0.9rem;
     font-weight: 700;
 }
+.btn-cerrar-sesión:hover {
+    background-color: #6c11cd;
+    transition: 0.4s;
+}
 .navbar-toggler {
     border: 2.5px solid #ec0b84 !important;
 }
