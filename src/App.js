@@ -3,6 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavReactB from "./components/NavReactB";
 import Inversion from './pages/Inversion'
+import Retiro from './pages/Retiro'
 import SideBar from "./components/SideBar";
 import { Route, Switch } from "react-router-dom";
 
@@ -19,8 +20,8 @@ function App() {
             <Route path="/Inversion" exact>
               <Inversion />
             </Route>
-            <Route path="/Login" exact>
-              {/* <Login /> */}
+            <Route path="/Retiro" exact>
+              <Retiro />
             </Route>
             <Route path="/Register" exact>
               {/* <Register /> */}

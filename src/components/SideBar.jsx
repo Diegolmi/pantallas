@@ -28,7 +28,7 @@ export default function SideBar() {
               </Nav.Link>
             </li>
             <li>
-              <Nav.Link to="/" as={NavLink}>
+              <Nav.Link to="/Retiro" as={NavLink}>
                 <i className="d-inline d-md-none bi bi-download"></i>
                 <span className="d-none d-md-inline"> Retiros</span>
               </Nav.Link>

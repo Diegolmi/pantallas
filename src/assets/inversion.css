@@ -117,9 +117,3 @@
 .dinero-acumulado h2 {
     text-shadow: 3px 3px 3px black !important;
 }
-
-@media (max-width: 430px) {
-.inversion {
-
-}
-}

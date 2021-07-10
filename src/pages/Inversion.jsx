@@ -6,6 +6,7 @@ export default function Inversion() {
   const [inversion, setInversion] = useState(150);
   const [widthRosa, setWidthRosa] = useState(40)
   const [tipo, setTipo] = useState('usdt')
+  const [billetera, setBilletera] = useState('1JJH231JKH2312HJ3H3K21J33BBJKJK')
   const [acumulado, setAcumulado] = useState(23000)
 
   return (
@@ -23,7 +24,7 @@ export default function Inversion() {
             <div className="col-12 col-lg-8 left">
                 <div className="billetera-tipo">
                     <h4>Billetera de {tipo}</h4>
-                    <p>1JJH231JKH2312HJ3H3K21J33BBJKJK</p>
+                    <p>{billetera}</p>
                 </div>
                 <div className="btn-inversion">
                     <Button>ADJUNTA PAGO</Button>
