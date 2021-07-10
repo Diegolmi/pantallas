@@ -5,6 +5,7 @@ import Inversion from './pages/Inversion'
 import Retiro from './pages/Retiro'
 import Soporte from "./pages/Soporte";
 import Objetivos from "./pages/Objetivos";
+import Perfil from "./pages/Perfil";
 import NavReactB from "./components/NavReactB";
 import SideBar from "./components/SideBar";
 import { Route, Switch } from "react-router-dom";
@@ -30,6 +31,9 @@ function App() {
             </Route>
             <Route path="/Objetivos" exact>
               <Objetivos />
+            </Route>
+            <Route path="/Perfil" exact>
+              <Perfil />
             </Route>
           </Switch>
         </div>

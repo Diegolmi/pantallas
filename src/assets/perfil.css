@@ -1,0 +1,55 @@
+.perfil {
+    margin-top: 100px;
+}
+.perfil .card {
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.perfil h3 {
+    font-weight: 700;
+    color: #ec0b84;
+    text-shadow: 0px 1.8px 1.8px black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.perfil .input-group {
+    margin-bottom: 20px !important;
+}
+.perfil span {
+    width: 100px;
+}
+.btn-guardar {
+    margin-left: 10px;
+    background-color: #ec0b84;
+    color: white;
+    font-weight: 650;
+    border-radius: 10px;
+    border: 2px solid #ec0b84;
+}
+.btn-guardar:hover {
+    background-color: white;
+    color: #ec0b84;
+    font-weight: 650;
+    border: 2px solid #ec0b84;
+}
+.btn-editar {
+    background-color: white;
+    color: #ec0b84;
+    font-weight: 650;
+    border: 2px solid #ec0b84;
+    border-radius: 10px;
+}
+.btn-editar:hover {
+    background-color: #ec0b84;
+    color: white;
+    font-weight: 650;
+    border: 2px solid #ec0b84;
+}
+.btn-editar:focus {
+    background-color: #ec0b84;
+    color: white;
+    font-weight: 650;
+    border: 2px solid #ec0b84;
+}
