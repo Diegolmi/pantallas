@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 .SideBar {
   width: 15%;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 100px;
   padding-bottom: 50px;
   background: rgb(236, 11, 132);
@@ -36,7 +36,9 @@
   font-weight: 700;
   color: white;
 }
-
+@media (max-width: 800px) {
+  
+}
 @media (max-width: 430px) {
 .img-sideBar {
     display: none;

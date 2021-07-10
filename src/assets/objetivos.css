@@ -1,0 +1,54 @@
+.objetivos {
+    min-height: 100vh;
+}
+.objetivos > div {
+    margin-top: 20px;
+    /* min-height: 100%; */
+    border-radius: 30px;
+    border: 2px solid #ec0b84 !important;
+}
+.lado-izquierdo h1 {
+    color: #ec0b84;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 0px 2px 2px black;
+}
+.lado-izquierdo h4 {
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.lado-izquierdo img {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    /* min-height: 300px; */
+    border-radius: 45px;
+}
+.objetivos h2 {
+    font-weight: 650;
+    font-size: 1.8rem;
+}
+.card-objetivos {
+    display: flex;
+    margin-bottom: 10px;
+}
+.card-objetivos img {
+    max-width: 40%;
+    max-height: 90px;
+    border-radius: 20px;
+}
+.card-objetivos div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-objetivos div h6 {
+    color: #ec0b84;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 0;
+}
+.card-objetivos div p {
+    font-weight: 640;
+    margin-bottom: 0;
+}

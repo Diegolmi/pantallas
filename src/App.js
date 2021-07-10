@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Inversion from './pages/Inversion'
 import Retiro from './pages/Retiro'
 import Soporte from "./pages/Soporte";
+import Objetivos from "./pages/Objetivos";
 import NavReactB from "./components/NavReactB";
 import SideBar from "./components/SideBar";
 import { Route, Switch } from "react-router-dom";
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <NavReactB />
-      <div className="d-flex" style={{height: '100vh'}}>
+      <div className="d-flex" style={{minHeight: '100vh'}}>
         <SideBar />
         <div className="w-100">
           <Switch>
@@ -26,6 +27,9 @@ function App() {
             </Route>
             <Route path="/Soporte" exact>
               <Soporte />
+            </Route>
+            <Route path="/Objetivos" exact>
+              <Objetivos />
             </Route>
           </Switch>
         </div>

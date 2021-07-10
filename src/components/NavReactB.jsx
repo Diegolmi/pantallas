@@ -21,17 +21,17 @@ export default function NavReactB() {
         />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link to="/Inicio" as={NavLink}>
+            <Nav.Link to="/Inicio" as={NavLink} href="#">
               Inicio
             </Nav.Link>
-            <Nav.Link to="/Perfil" as={NavLink}>
+            <Nav.Link to="/Perfil" as={NavLink} href="#">
               Perfil
             </Nav.Link>
-            <Nav.Link to="/Idioma" as={NavLink}>
+            <Nav.Link to="/Idioma" as={NavLink} href="#">
               Idioma
             </Nav.Link>
             { user && 
-              <Button className="btn-cerrar-sesión mr-md-2 mb-2">Iniciar Sesión</Button>
+              <Button className="btn-cerrar-sesión mr-lg-2 mb-2">Iniciar Sesión</Button>
             }
             { user && 
               <Button className="btn-cerrar-sesión">Registrarte</Button>
