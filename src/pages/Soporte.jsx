@@ -5,7 +5,7 @@ import { Nav } from 'react-bootstrap'
 export default function Soporte() {
   return (
     <>
-        <div className="container pt-5">
+        <div className="soporte pt-5 pb-3">
             <div className="col-12 col-lg-8 titulo-soporte">
                 <h2>SOPORTE</h2>
             </div>

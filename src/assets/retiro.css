@@ -2,7 +2,7 @@
     width: 100% !important;
     padding: 0 1rem;
     min-height: 100vh !important;
-    background: url(https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724245__340.jpg);
+    background: url(../assets/img/bg-dark.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +15,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 .retiro > div {
     position: relative;
@@ -79,8 +79,17 @@
     font-weight: 650;
     border: 2px solid #ec0b84;
 }
-
+@media (max-width: 800px) {
+    .retiro {
+        background: url(../assets/img/bg-dark-h.jpg);
+        background-size: 100% auto;
+    }
+}
 @media (max-width: 430px) {
+    .retiro {
+        background: url(../assets/img/bg-dark-h.jpg);
+    background-size: 100% 100%;
+    }
     .btn-retiro {
         flex-direction: column;
         width: 70%;

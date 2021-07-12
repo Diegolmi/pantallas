@@ -5,7 +5,7 @@ export default function Objetivos() {
     
   return (
     <>
-        <div className="container objetivos pt-5">
+        <div className="objetivos pt-5">
             <div className="row mx-1 mx-lg-0 mb-3 pt-2 pb-3">
                 <div className="col-12 col-md-7 lado-izquierdo">
                     <h1>Rango 1</h1>

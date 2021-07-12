@@ -38,7 +38,7 @@ export default function Inversion() {
                 <Button>INVERTÍ</Button>
               </div>
             </div>
-            <div className="col-12 col-lg-4 px-5 py-5">
+            <div className="col-12 col-lg-4 px-5 pt-4">
               <div className="dinero-acumulado px-3">
                 <h5>Dinero acumulado de tu Equipo</h5>
                 <h2 className="my-4">USD {acumulado}</h2>

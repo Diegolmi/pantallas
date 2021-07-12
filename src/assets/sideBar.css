@@ -3,7 +3,7 @@
   width: 15%;
   min-height: 100vh;
   padding-top: 100px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   background: rgb(236, 11, 132);
   display: flex;
   flex-direction: column;

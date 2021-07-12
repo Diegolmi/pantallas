@@ -1,3 +1,15 @@
+.soporte {
+    width: 100% !important;
+    padding: 0 1rem;
+    min-height: 100vh !important;
+    background: url(../assets/img/bg-dark.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* padding-bottom: 30px; */
+    background-position: center;
+    position: relative;
+}
+
 .titulo-soporte {
     color: white;
     margin: auto;
@@ -38,4 +50,17 @@
     padding: 0 2.5rem;
     font-size: 1.3rem;
     font-weight: 700;
+}
+
+@media (max-width: 800px) {
+    .soporte {
+        background: url(../assets/img/bg-dark-h.jpg);
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 450px) {
+    .soporte {
+        background: url(../assets/img/bg-dark-h.jpg);
+        background-size: 100% 100%;
+    }
 }

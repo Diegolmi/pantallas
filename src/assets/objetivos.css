@@ -1,8 +1,17 @@
 .objetivos {
-    min-height: 100vh;
+    width: 100% !important;
+    padding: 0 1rem;
+    min-height: 100vh !important;
+    background: url(../assets/img/bg-dark.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    background-position: center;
+    position: relative;
 }
 .objetivos > div {
     margin-top: 20px;
+	background-color: rgba(255, 255, 255, 0.2);
     /* min-height: 100%; */
     border-radius: 30px;
     border: 2px solid #ec0b84 !important;
@@ -16,6 +25,7 @@
 .lado-izquierdo h4 {
     font-weight: 700;
     margin-bottom: 3px;
+    color: white;
 }
 .lado-izquierdo img {
     margin-top: 5px;
@@ -25,6 +35,7 @@
 }
 .objetivos h2 {
     font-weight: 650;
+    color: white;
     font-size: 1.8rem;
 }
 .card-objetivos {
@@ -46,9 +57,24 @@
 .card-objetivos div h6 {
     color: #ec0b84;
     text-shadow: 0px 1px 1px black;
+    color: white;
     margin-bottom: 0;
 }
 .card-objetivos div p {
     font-weight: 640;
+    color: white;
     margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+    .objetivos {
+        background: url(../assets/img/bg-dark-h.jpg);
+        background-size: 100% 100%;
+    }
+}
+@media (max-width: 450px) {
+    .objetivos {
+        background: url(../assets/img/bg-dark-h.jpg);
+        background-size: 100% 100%;
+    }
 }

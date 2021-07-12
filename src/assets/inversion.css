@@ -2,7 +2,7 @@
     width: 100% !important;
     padding: 0 1rem;
     min-height: 100vh !important;
-    background: url(https://cdn.pixabay.com/photo/2017/10/31/09/54/entrepreneur-2904772__340.jpg);
+    background: url(../assets/img/bg-dark.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +15,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 .inversion button:focus {
     background-color: #ec0b84;
@@ -30,9 +30,10 @@
     display: flex;
     justify-content: center;
     border-radius: 20px;
+    color: white;
     margin: auto;
     padding: 0 0;
-    background-color: rgb(255, 255, 255, 0.4);
+    background-color: rgb(255, 255, 255, 0.2);
 }
 .div-porcentaje {
     margin: auto;
@@ -90,7 +91,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 .btn-inversion {
     display: flex;
@@ -122,4 +123,17 @@
 }
 .dinero-acumulado h2 {
     text-shadow: 3px 3px 3px black !important;
+}
+
+@media (max-width: 800px) {
+    .inversion {
+    background: url(../assets/img/bg-dark-h.jpg);
+    background-size: 100% 100%;
+}
+}
+@media (max-width: 450px) {
+    .inversion {
+    background: url(../assets/img/bg-dark-h.jpg);
+    background-size: auto 100%;
+}
 }
