@@ -73,6 +73,13 @@
     font-weight: 700;
 }
 
+.retiro button:focus {
+    background-color: #ec0b84;
+    color: white;
+    font-weight: 650;
+    border: 2px solid #ec0b84;
+}
+
 @media (max-width: 430px) {
     .btn-retiro {
         flex-direction: column;

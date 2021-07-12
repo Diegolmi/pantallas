@@ -43,7 +43,7 @@ export default function Perfil() {
               Contactar a soporte
             </Button>
         </div>
-        <div className="col-12 col-md-8 text-left pb-5 pb-xl-0">
+        <div className="col-12 col-md-8 text-left pb-5 pb-xl-4">
           <h3>Tus Datos</h3>
           <Form onSubmit={handleSubmit}>
             <div className="d-flex">

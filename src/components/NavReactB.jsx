@@ -12,7 +12,6 @@ export default function NavReactB() {
         className="nav-react-b"
         fixed="top"
         collapseOnSelect
-        bg="white"
         expand="lg"
       >
         <Navbar.Toggle

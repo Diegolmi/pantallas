@@ -17,6 +17,12 @@
 	right: 0;
 	background-color: rgba(255, 255, 255, 0.6);
 }
+.inversion button:focus {
+    background-color: #ec0b84;
+    color: white;
+    font-weight: 650;
+    border: 2px solid #ec0b84;
+}
 .inversion > div {
     position: relative;
 }
