@@ -19,8 +19,10 @@ function App() {
   useEffect(() => {
     if (location.pathname === '/Blog') {
       setPath(false)
+    } else {
+      setPath(true)
     }
-  }, [])
+  }, [location.pathname])
 
 
   return (
