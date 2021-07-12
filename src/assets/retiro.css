@@ -82,12 +82,14 @@
 @media (max-width: 800px) {
     .retiro {
         background: url(../assets/img/bg-dark-h.jpg);
-        background-size: 100% auto;
+    background-attachment: fixed;
+    background-size: 100% auto;
     }
 }
 @media (max-width: 430px) {
     .retiro {
         background: url(../assets/img/bg-dark-h.jpg);
+    background-attachment: fixed;
     background-size: 100% 100%;
     }
     .btn-retiro {

@@ -55,12 +55,14 @@
 @media (max-width: 800px) {
     .soporte {
         background: url(../assets/img/bg-dark-h.jpg);
-        background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     }
 }
 @media (max-width: 450px) {
     .soporte {
         background: url(../assets/img/bg-dark-h.jpg);
-        background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     }
 }
